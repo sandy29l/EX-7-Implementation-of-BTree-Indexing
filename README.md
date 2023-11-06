@@ -3,16 +3,16 @@
 ## AIM: 
 To implement B-tree indexing and to search an element in the B-tree using python
 ## ALGORITHM:
-<div align="justify">
-1. Starting from the root node, compare k with the first key of the node.<br>
-2. If k = the first key of the node, return the node and the index.<br>
-3. If k.leaf = true, return NULL (i.e. not found).<br>
-If k < the first key of the root node, search the left child of this key recursively.<br>
+
+1. Starting from the root node, compare k with the first key of the node.
+2. If k = the first key of the node, return the node and the index.
+3. If k.leaf = true, return NULL (i.e. not found).
+If k < the first key of the root node, search the left child of this key recursively.
 4. If there is more than one key in the current node and k > the first key, compare k with the next key in the node.
 If k < next key, search the left child of this key (ie. k lies in between the first and the second keys).
-Else, search the right child of the key.<br>
-5. Repeat steps 1 to 4 until the leaf is reached.<br>
-</div>
+Else, search the right child of the key.
+5. Repeat steps 1 to 4 until the leaf is reached.
+  
 ## PROGRAM:
   
   ```python
