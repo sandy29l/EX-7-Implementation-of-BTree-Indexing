@@ -14,8 +14,8 @@ Else, search the right child of the key.
 5. Repeat steps 1 to 4 until the leaf is reached.
   
 ## PROGRAM:
-  
-  ```python
+```
+python
 # Searching a key on a B-tree in Python
 # Create a node
 class BTreeNode:
